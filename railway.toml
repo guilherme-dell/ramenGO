@@ -1,0 +1,11 @@
+[build]
+builder = "NIXPACKS"
+buildCommand = "go build -o=ramenGO ./cmd/api"
+
+[deploy]
+runtime = "UNSPECIFIED"
+numReplicas = 1
+startCommand = "./ramenGO"
+sleepApplication = false
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
