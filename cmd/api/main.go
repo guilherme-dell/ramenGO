@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 	"ramenGO/cmd/api/middleware"
 	"ramenGO/cmd/api/routes"
@@ -13,6 +14,7 @@ func main() {
 	port := os.Getenv("PORT")
 	middlewareKEY := os.Getenv("MIDDLEWARE_KEY")
 	orderMiddlewareKey := os.Getenv("ORDER_KEY")
+	fmt.Printf("PORT=%s\nMIDDLEWARE_KEY=%s\nORDER_KEY=%s\n", port, middlewareKEY, orderMiddlewareKey)
 
 	listenPort := "0.0.0.0:" + port
 
