@@ -21,8 +21,8 @@ O objetivo neste teste é construir uma API para uma aplicação web chamada Ram
 - O retorno dos endpoints segue o **contrato** informado no documento do teste.
 - **Todas as informações necessárias para consumir a API foram enviadas no formulário de conclusão.**
 
-`Esse é o repositório de entrega do teste, caso deseje executar a aplicação em seu computador, acesse o link abaixo:`
-- [LINK]()
+`Esse é o repositório de entrega do teste. Caso deseje executar a aplicação em seu computador, irei publicar uma "versão" no link abaixo :)`
+- [Link](https://github.com/guilherme-dell/ramenPV)
 ㅤㅤㅤ
 ㅤㅤㅤ
 ㅤㅤㅤ
